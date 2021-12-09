@@ -5,7 +5,7 @@ app.use(express.static("./build"));
 
 let port = process.env.PORT;
 if (port == null || port == "") {
-  port = 5500;
+  port = 5000;
 }
 app.listen(port, () => {
     console.log("Server is running at port: 5000");
